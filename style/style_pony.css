@@ -42,6 +42,8 @@ body {
     background-color: #E1AFD1;
 }
 
-iframe {
-    text-align: center;
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
