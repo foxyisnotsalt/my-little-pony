@@ -38,16 +38,50 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#a1{
     background-color: #37b0c9;
     border: none;
     padding: 15px 32px;
     border-radius: 15px;
     transition-duration: 500ms;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
-.links:hover{
-    border-radius: 2px;
+#a1:hover{
+    border-radius: 10px;
+    background-color: #f140a9;
+}
+
+#a2{
+    background-color: #37b0c9;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 15px;
+    transition-duration: 500ms;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#a2:hover{
+    border-radius: 10px;
+    background-color: #f140a9;
+}
+
+#a3{
+    background-color: #37b0c9;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 15px;
+    transition-duration: 500ms;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#a3:hover{
+    border-radius: 10px;
     background-color: #f140a9;
 }
 

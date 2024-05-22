@@ -3,6 +3,7 @@ h1 {
     padding: 2%;
     font-size:400%;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -33,7 +34,23 @@ body {
     background-color: #E1AFD1;
 }
 
-.links {
-    display: flex;
-    justify-content: center;
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12 {
+    background-color: #37b0c9;
+    border: none;
+    padding: 10px 32px;
+    width: 50%;
+    border-radius: 15px;
+    transition-duration: 500ms;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover, #b8:hover, #b9:hover, #b10:hover, #b11:hover, #b12:hover{
+    border-radius: 10px;
+    background-color: #f140a9;
+}
+
+.menu-links{
+    width: 100%;
+    table-layout: fixed;
+    overflow: hidden;
 }
